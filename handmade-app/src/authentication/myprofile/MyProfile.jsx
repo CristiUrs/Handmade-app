@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../../HandMade/Footer";
 
 export default function MyProfile() {
     const [userInfo, setUserInfo] = useState({

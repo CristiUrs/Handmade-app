@@ -200,6 +200,38 @@
       "lastName": "cri",
       "address": "buc",
       "id": 30
+    },
+    {
+      "email": "cristi25@gmail.com",
+      "password": "$2a$10$bEa/gpGS7aogPtbAUCPR5OjkEDd3Efrw6dJDBF/VQAR.d8lVHEHkC",
+      "firstName": "Cristian",
+      "lastName": "Urs",
+      "address": "Bucuresti, sector 4",
+      "id": 31
+    },
+    {
+      "email": "cristian1@gmail.com",
+      "password": "$2a$10$nDz4XGCSBZwJF4i9oD0U7OMz8i1yTydUGSrMh47H92hhFNvt0O9lm",
+      "firstName": "Cristian",
+      "lastName": "Urs",
+      "address": "Bucuresti, sec. 4",
+      "id": 32
+    },
+    {
+      "email": "cristian9@gmail.com",
+      "password": "$2a$10$Stezxp/.LyrCjkHhJl6vGemkcLmLd2JorqV/RH1ryZd1d1R8tI9hi",
+      "firstName": "Cristi",
+      "lastName": "Ursulescu",
+      "address": "Brasov, str. Orizontului nr. 2, sc. A, ap. 31",
+      "id": 33
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$iwgRmphlNheIDB66nUGrXOiW6aNfuX9inCVxvV9/804g0Qo4D7pWS",
+      "firstName": "Cristi",
+      "lastName": "",
+      "address": "",
+      "id": 34
     }
   ],
   "products": [
@@ -208,7 +240,7 @@
       "image": "https://res.cloudinary.com/dcict1aha/image/upload/v1698937788/Images/nxcwuf2i4mcls5o440gs.jpg",
       "name": "Bag Totesss",
       "price": "80",
-      "wishlist": false,
+      "wishlist": true,
       "colour": "black",
       "details": "The Tote is the most versatile leather bag you can own. Its unisex design makes it both a stylish women's leather handbag and modern men's leather tote.",
       "delails": "The Tote is the most versatile leather bag you can own. Its unisex design makes it both a stylish women's leather handbag and modern men's leather tote."
@@ -411,7 +443,7 @@
       "image": "https://res.cloudinary.com/dcict1aha/image/upload/v1698937789/Images/hgsxii4xenhbpsdobf7u.jpg",
       "name": "Accessories",
       "price": 20,
-      "wishlist": false,
+      "wishlist": true,
       "colour": "white",
       "details": "This multi-use accessory keeps your valuables safe whilst looking timelessly stylish"
     },
@@ -420,7 +452,7 @@
       "name": "Accessories",
       "price": 30,
       "id": 32,
-      "wishlist": false,
+      "wishlist": true,
       "colour": "blue",
       "details": "This multi-use accessory keeps your valuables safe whilst looking timelessly stylish"
     },
@@ -605,19 +637,11 @@
     },
     {
       "image": "https://picsum.photos/200/300",
-      "name": "dfgdfg",
-      "price": "24",
-      "colour": "brown",
-      "details": "sdfsd",
-      "id": 55
-    },
-    {
-      "image": "https://picsum.photos/200/300",
-      "name": "fgdfg",
-      "price": "25",
-      "colour": "brown",
-      "details": "dxgxg",
-      "id": 56
+      "name": "Bag test",
+      "price": "35",
+      "colour": "blue",
+      "details": "The bag is the most versatile leather bag you can own.",
+      "id": 57
     }
   ]
 }

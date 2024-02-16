@@ -15,6 +15,7 @@
     background-color: black;
     color: antiquewhite;
     margin-bottom: 3px;
+    cursor: pointer;
 }
 .btn1:hover {
     background-color: red;

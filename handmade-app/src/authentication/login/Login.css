@@ -1,5 +1,5 @@
 .formLogin {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     letter-spacing: 0.2em;
 }
@@ -9,12 +9,12 @@
     place-items: center;
     letter-spacing: 0.2em;
     color: black;
+    transform: translateY(50%);
 }
 
 .box {
     margin-bottom: 15px;
     padding: 6px 8px;
-
     border: 1px solid black;
     position: relative;
     height: 50px;
@@ -56,13 +56,13 @@
     transform: translateY(0);
 }
 .passError {
-    width: 670px;
+    /* width: 670px; */
     color: red;
     margin-bottom: 15px;
 }
 .btn {
     background-color: black;
-    width: 670px;
+    width: 600px;
     height: 55px;
     color: white;
     transition: background-color 0.3s ease;
@@ -71,4 +71,7 @@
     background-color: white;
     color: black;
     transition: 1s;
+}
+.register_link {
+    color: darkred;
 }

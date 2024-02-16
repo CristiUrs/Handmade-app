@@ -1,12 +1,7 @@
 import React from "react";
-
 import { useContext, useEffect, useState } from "react";
-
 import { Link, useNavigate } from "react-router-dom";
-import { ItemsContext } from "../ItemContext";
-import { UserContext } from "../UserContext";
 import { CartContext } from "../CartContext";
-
 import "./ShoppingCart.css";
 
 export default function SoppingCart() {
@@ -73,6 +68,9 @@ export default function SoppingCart() {
                     </div>
                     <div className="total_price">
                         <h3>Total is: {price} &pound;</h3>
+                        <Link to="/checkout">
+                            <button className="checkout">Checkout</button>
+                        </Link>
                     </div>
                 </section>
             ) : (

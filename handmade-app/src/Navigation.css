@@ -17,8 +17,8 @@ ul {
 }
 .title {
     text-transform: uppercase;
-    font-size: large;
-    font-weight: 700;
+    font-size: larger;
+    font-weight: 800;
 }
 .navBar1 {
     display: flex;

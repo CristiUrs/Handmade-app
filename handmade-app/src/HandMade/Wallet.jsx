@@ -17,12 +17,14 @@ export default function Wallet() {
     const [error, setError] = useState(null);
     const { wallets, setWallets } = useContext(ItemsContext);
     const navigate = useNavigate();
-    const { user, setUser } = useContext(UserContext);
+    const { user } = useContext(UserContext);
     const { cart, setCart } = useContext(CartContext);
 
     const addToCart = (product) => {
         setCart([...cart, product]);
     };
+
+    const bearerToken = user?.accessToken || getAccessToken();
 
     function bookmark(product, wishlist) {
         product.wishlist = !wishlist;
@@ -80,12 +82,12 @@ export default function Wallet() {
 
     if (error) {
         return (
-            <section className="err_page">
+            <section className="error_page">
                 <p>
                     There has been a problem loading our products. Try again
                     later.
                 </p>
-                <img src={logoerr} alt="" className="err" />
+                <img src={logoerr} alt="" className="errorImg" />
             </section>
         );
     }
@@ -118,18 +120,31 @@ export default function Wallet() {
                                 )
                             }
                         />
+
                         <Link to="/wishlist">
                             <HeartIcon></HeartIcon>
                         </Link>
+
                         <span>
-                            <Link to="/cart">
-                                <span className="svg_cart">
-                                    <CartIcon />
-                                    <span className="quantity">
-                                        {cart?.length}
+                            {bearerToken ? (
+                                <Link to="/cart">
+                                    <span className="svg_cart">
+                                        <CartIcon />
+                                        <span className="quantity">
+                                            {cart?.length}
+                                        </span>
                                     </span>
-                                </span>
-                            </Link>
+                                </Link>
+                            ) : (
+                                <Link to="/login">
+                                    <span className="svg_cart">
+                                        <CartIcon />
+                                        <span className="quantity">
+                                            {cart?.length}
+                                        </span>
+                                    </span>
+                                </Link>
+                            )}
                         </span>
                     </div>
                 </nav>
@@ -138,7 +153,11 @@ export default function Wallet() {
                 <p className="userLogin">Welcome, {user?.user?.firstName}!</p>
             )}
             <div className="container">
-                <img src={logo3} className="logo-img"></img>
+                <img
+                    src={logo3}
+                    className="logo-img"
+                    alt="Lion Leather Craft"
+                ></img>
                 <p className="descriere-text">
                     Step into the world of LION LEATHER CRAFT! <br />
                     <ArrowIcon></ArrowIcon>

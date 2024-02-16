@@ -3,7 +3,7 @@ import Wallet from "./HandMade/Wallet";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Navigation from "./Navigation";
 import CreateItem from "./create-item/Create-item";
-import React, { useState } from "react";
+import React from "react";
 import ItemContextProvider from "./ItemContext";
 import Register from "./authentication/register/Register";
 import Login from "./authentication/login/Login";
@@ -24,6 +24,7 @@ import Privacy from "./Privacy/Privacy";
 import Refund from "./Refund/Refund";
 import Footer from "./HandMade/Footer";
 import logoerr from "./Image/visuals-JpTY4gUviJM-unsplash.jpg";
+import Checkout from "./checkout-delivery/Checkout";
 
 function App() {
     return (
@@ -110,6 +111,10 @@ function App() {
                                 element={<Privacy></Privacy>}
                             ></Route>
                             <Route
+                                path="/checkout"
+                                element={<Checkout></Checkout>}
+                            ></Route>
+                            <Route
                                 path="/refund"
                                 element={<Refund></Refund>}
                             ></Route>
@@ -123,7 +128,7 @@ function App() {
                                         <img
                                             src={logoerr}
                                             alt=""
-                                            className="err"
+                                            className="errorImg"
                                         />
                                     </div>
                                 }

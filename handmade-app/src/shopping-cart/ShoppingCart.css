@@ -31,3 +31,15 @@
     display: block;
     width: 40%;
 }
+.checkout {
+    width: 95px;
+    height: 40px;
+    position: relative;
+    left: 11px;
+    margin-top: 5px;
+    border: 1px solid;
+    background-color: #040404;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}

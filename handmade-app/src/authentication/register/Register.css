@@ -1,5 +1,5 @@
 .formRegister {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     letter-spacing: 0.2em;
 }
@@ -10,6 +10,7 @@
     display: grid;
     place-items: center;
     letter-spacing: 0.2em;
+    transform: translateY(20%);
 }
 .form__input {
     margin-bottom: 15px;

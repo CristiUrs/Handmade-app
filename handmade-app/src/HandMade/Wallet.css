@@ -30,6 +30,7 @@
     top: 10px;
     right: 30px;
     fill: red;
+    cursor: pointer;
 }
 
 .news {
@@ -144,7 +145,7 @@ a {
     border-radius: 10px;
     transform: translate(0%, -50%);
 }
-.err_page {
+.error_page {
     text-align: center;
     font-size: 20px;
 }
@@ -205,7 +206,7 @@ a {
         top: 70%;
     }
 }
-.err {
+.errorImg {
     width: 55%;
     display: block;
     margin-left: auto;
