@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+LionLeatherCraft is a web app developed in React to buy and manage handmade products. The application provides features such as adding and deleting products to your shopping cart, viewing product details, adding and deleting products to favorites, creating an account, to log into your account, as well as adding or editing products to the product list.
+
+Getting Started
+You can download this project and run it on your local computer using VsCode or the code editor of your choice. Firs, you must run npm install to get all the npm packages, used to build the project, installed.
+
+After, run the development server:
+
+npm run start
+npm run server
+
 ## Available Scripts
 
 In the project directory, you can run:

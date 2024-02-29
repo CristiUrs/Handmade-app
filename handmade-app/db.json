@@ -260,7 +260,7 @@
       "image": "https://res.cloudinary.com/dcict1aha/image/upload/v1698937785/Images/wfsek3nfweor5mjcrdx8.jpg",
       "name": "Bag Gote",
       "price": "65",
-      "wishlist": false,
+      "wishlist": true,
       "colour": "black",
       "details": "The Gote is the most versatile leather bag you can own.",
       "delails": "The Gote is the most versatile leather bag you can own."
@@ -443,7 +443,7 @@
       "image": "https://res.cloudinary.com/dcict1aha/image/upload/v1698937789/Images/hgsxii4xenhbpsdobf7u.jpg",
       "name": "Accessories",
       "price": 20,
-      "wishlist": true,
+      "wishlist": false,
       "colour": "white",
       "details": "This multi-use accessory keeps your valuables safe whilst looking timelessly stylish"
     },
